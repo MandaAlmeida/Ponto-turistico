@@ -1,0 +1,33 @@
+{
+    "name": "Pontos-turisticos",
+    "version": "1.0.0",
+    "description": "",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "dev": "gulp",
+        "start": "gulp",
+        "build": "gulp build --production"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/amandaalmeida20/Ponto-turistico.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "@babel/core": "^7.20.2",
+        "@babel/preset-env": "^7.20.2",
+        "babelify": "^10.0.0",
+        "browserify": "^17.0.0",
+        "gulp": "^4.0.2",
+        "gulp-connect": "^5.7.0",
+        "gulp-sass": "^5.1.0",
+        "gulp-uglify": "^3.0.2",
+        "sass": "^1.56.1",
+        "vinyl-buffer": "^1.0.1"
+    },
+    "dependencies": {
+        "slick-carousel": "^1.8.1",
+        "vinyl-source-stream": "^2.0.0"
+    }
+}

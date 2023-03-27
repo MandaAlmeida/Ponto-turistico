@@ -1,0 +1,46 @@
+.container-form {
+    padding: 40px 0 0 130px;
+
+    .title-form {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 120%;
+    }
+}
+
+.container-result {
+    .title-result {
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 120%;
+        padding: 60px 0 0 130px;
+    }
+}
+
+@media screen and (min-width: 2500px) {
+    .container-form {
+        .title-form {
+            font-size: 64px;
+        }
+    }
+
+    .container-result {
+        .title-result {
+            font-size: 64px;
+        }
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .container-form {
+        padding: 40px 16px;
+    }
+
+    .container-result {
+        padding: 0 16px 0;
+
+        .title-result {
+            padding: 0;
+        }
+    }
+}

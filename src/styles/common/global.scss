@@ -1,0 +1,30 @@
+body,
+button {
+    font-family: "Poppins", sans-serif;
+    color: $black;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+input,
+span {
+    color: $gray-600;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.15px;
+}
+
+@media screen and (min-width: 2500px) {
+
+    body,
+    button {
+        font-size: 32px;
+    }
+
+    input,
+    span {
+        font-size: 32px;
+        line-height: 48px;
+    }
+}
